@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>BATCHJ_</name>
-  <url>http://maven.apache.org</url>
+  <url>http://imagej.net/Vcaldas</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -131,6 +131,17 @@
 		</plugins>
 </build>
 	
+	<description>BatchJ: a set of tools for batch analysis in ImageJ.</description>
+	<scm>
+		<url>https://github.com/vcaldas/BatchJ</url>
+		<connection>scm:git:git://github.com/vcaldas/BatchJ</connection>
+		<developerConnection>scm:git:git@github.com:vcaldas/BatchJ</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/vcaldas/BatcjJ/issues</url>
+	</issueManagement>
 </project>
 
 	
